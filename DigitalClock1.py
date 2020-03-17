@@ -40,11 +40,7 @@ def main():
             root.destroy()
 
     update()
-
-    try:
-        root.mainloop()
-    except KeyboardInterrupt:
-        root.destroy()
+    root.mainloop()
 
 
 if __name__ == '__main__':
