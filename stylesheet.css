@@ -7,10 +7,15 @@ body {
 	height: 100%;
 	text-align: center;
 	user-select: none;
+	background-color: #ffffff;
 }
 
 p {
 	margin: 0;
+}
+
+.title p {
+	color: #ffffff;
 }
 
 .main {
