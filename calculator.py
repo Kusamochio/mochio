@@ -39,6 +39,7 @@ def all_clear():
 def result():
     try:
         value = val.get()
+        value = value.replace('^', '^^')
         value = value.replace('÷', '/')
         value = value.replace('×', '*')
         val.set(eval(value))  # evalは第一引数を式として認識する
