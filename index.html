@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stylesheet.css">
+	<title>連打力測定</title>
+</head>
+<body>
+	<div class="title">
+		<h1>連打力測定</h1>
+	</div>
+
+	<div class="main">
+		<div class="top">
+			<p>測定時間</p>
+			<select name="select-time" class="select-time">
+				<option value="1">1秒</option>
+				<option value="3">3秒</option>
+				<option value="5">5秒</option>
+				<option value="10">10秒</option>
+			</select>
+			<div class="start btn">
+				<p>スタート</p>
+			</div>
+		</div>
+
+		<div class="standby-count"></div>
+
+		<div class="click btn">
+			<p>クリック</p>
+		</div>
+
+		<div class="result">
+			<h4>測定時間: <span class="time"></span></h4>
+			<h4>クリック数: <span class="click-num"></span></h4>
+			<h4>1秒あたりのクリック数: <span class="click-per-num"></span></h4>
+			<div class="reset">
+				<p>リセット</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
