@@ -45,7 +45,7 @@ window.onload = function() {
 					clearInterval(countDown);
 					displayResult(selectedNumber);
 				}
-			}, 3);
+			}, 1);
 	}
 
 	function displayResult(select) {
